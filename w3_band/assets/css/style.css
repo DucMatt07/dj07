@@ -8,6 +8,22 @@
 .clear{
     clear: both;
 }
+/* Common */
+.col-third{
+    width: 33.333333% !important;
+}
+.col{
+    float: left;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.row{
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.text-center{
+    text-align: center;
+}
 #main{
 
 }
@@ -134,11 +150,7 @@ font-size: 15px;
 #content .member-list{
     margin-top: 47px;
 }
-#content .member-team{
-    float: left;
-    width: 33.333333%;
-    text-align: center;
-}
+
 #content .member-name{
     font-size: 15px;
 
@@ -185,13 +197,10 @@ font-size: 15px;
 }
 /* Place and buy tickets */
 .place-list{
-margin: 32px -8px 48px;
+margin-top: 32px;
+margin-bottom: 48px;
 }
-.place-item{
-width: 33.333333%;
-float: left;
-padding: 0 8px;
-}
+
 .place-img{
 width: 100%;
 display: block;
