@@ -379,7 +379,7 @@ text-align: center;
 #footer .social-list a:hover{
     color: rgba(0, 0, 0, 0.4);
     cursor: pointer;
-}
+    }
 #footer .copyright{
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.6);
