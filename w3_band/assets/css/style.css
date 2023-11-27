@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 /* Chuc nang clear */
 .clear{
@@ -56,6 +57,7 @@ top: 0;
 right: 0;
 left: 0;
 z-index: 1;
+overflow: hidden;
 }
 #nav{
     display: inline-block;
@@ -106,14 +108,23 @@ position: relative;
     list-style-type: none;
 }
 /* SEARCH ICON */
+#header .menu-btn,
 #header .search-btn{
 float: right;
 padding: 0 21px;
+}
+#header .menu-btn:hover{
+    background-color: #ccc;
+}
+#header .menu-btn:hover .menu-icon{
+    background-color: #ccc;
+    color: #000;
 }
 #header .search-btn:hover{
     background-color: #f44336;
     cursor: pointer;
 }
+#header .menu-icon,
 #header .search-icon{
     color: #fff;
     font-size: 20px;
@@ -141,13 +152,16 @@ margin-top: 25px;
 font-size: 15px;
 }
 #content{
-
+overflow: hidden;
 }
 #content .content-section{
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 #content .section-heading{
     font-size: 30px;
