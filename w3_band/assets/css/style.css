@@ -11,13 +11,13 @@
 }
 /* Common */
 .col-third{
-    width: 33.333333% !important;
+    width: 33.333333% ;
 }
 .col-half{
-    width: 50% !important;
+    width: 50% ;
 }
 .col-full{
-    width: 100% !important;
+    width: 100% ;
 }
 .col{
     float: left;
@@ -57,7 +57,6 @@ top: 0;
 right: 0;
 left: 0;
 z-index: 1;
-overflow: hidden;
 }
 #nav{
     display: inline-block;
@@ -112,6 +111,12 @@ position: relative;
 #header .search-btn{
 float: right;
 padding: 0 21px;
+}
+#header .menu-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
 }
 #header .menu-btn:hover{
     background-color: #ccc;
@@ -183,7 +188,7 @@ overflow: hidden;
 }
 /* PICTURE MEMBER BAND */
 #content .member-list{
-    margin-top: 47px;
+    margin-top: 32px;
 }
 
 #content .member-name{
@@ -232,7 +237,7 @@ overflow: hidden;
 }
 /* Place and buy tickets */
 .place-list{
-margin-top: 32px;
+margin-top: 16px;
 }
 
 .place-img{
